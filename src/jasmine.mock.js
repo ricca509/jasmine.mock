@@ -5,9 +5,9 @@
     module.getProps = function (constructor, StopAtConstructor) {
         var constructorKeys,
             getKeys = function (obj) {
-                var keys = [];
+                var key, keys = [];
 
-                for (var key in obj.prototype) {
+                for (key in obj.prototype) {
                     keys.push(key);
                 }
 

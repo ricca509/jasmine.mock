@@ -1,4 +1,4 @@
-describe('The jasmineMock', function() {
+describe('The jasmine.mock helper', function() {
     var backboneDefaultProps = ['_changing', '_pending', '_previousAttributes', 'attributes', 'changed', 'cid'];
 
     beforeEach(function () {
