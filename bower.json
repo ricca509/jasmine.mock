@@ -1,0 +1,22 @@
+{
+  "name": "jasmine.mock",
+  "version": "0.0.1",
+  "authors": [
+    "Riccardo Coppola <ricca509@gmail.com>"
+  ],
+  "description": "A small Jasmine helper that allows you to easily mock (completely or partially) objects and classes in your tests.",
+  "main": "src/jasmine.mock.js",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "underscore": "~1.5.2",
+    "backbone": "~1.1.2"
+  }
+}
